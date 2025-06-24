@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IFCE - Estacionamento de Bicicletas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Estacionamento de Bicicletas - IFCE</h1>
+        <div class="navegacao">
+            <a href="index.html">Mapa</a> | 
+            <a href="p2.html">Lista</a> | 
+            <a href="p3.html">Sobre</a>
+        </div>
+    </div>
+
+    <div class="conteudo-principal">
+        <h2>Pontos de Estacionamento no Campus</h2>
+        
+        <div class="mapa-campus">
+            <div class="bloco">
+                <h3>Entrada - Parte interna</h3>
+                <div class="ponto quase-cheio" id="pontoA1">
+                    <p><strong>Ponto A1</strong></p>
+                    <p>Vagas: 18/20</p>
+                    <p>Local: Entrada, lado direito, em direção ao ponto de ônibus</p>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h3>Entrada - Parte Externa</h3>
+                <div class="ponto lotado" id="pontoA2">
+                    <p><strong>Ponto A2</strong></p>
+                    <p>Vagas: 6/6</p>
+                    <p>Local: Entrada, lado esquerdo, em direção ao estacionamento</p>
+                </div>
+            </div>
+            
+            <div class="bloco">
+                <h3>Bloco da Automação Industrial</h3>
+                <div class="ponto quase-cheio" id="pontoB1">
+                    <p><strong>Ponto B1</strong></p>
+                    <p>Vagas: 4/6</p>
+                    <p>Local: Entre o Bloco 1 e o Bloco de Automação Industrial</p>
+                </div>
+            </div>
+            
+            <div class="bloco">
+                <h3>Bloco da T.I</h3>
+                <div class="ponto disponivel" id="pontoC1">
+                    <p><strong>Ponto C1</strong></p>
+                    <p>Vagas: 3/8</p>
+                    <p>Local: Atrás do Bloco da T.I</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legenda">
+            <h3>Legenda de Status:</h3>
+            <div class="item-legenda">
+                <div class="amostra disponivel"></div>
+                <p>Disponível (mais da metade das vagas livres)</p>
+            </div>
+            <div class="item-legenda">
+                <div class="amostra quase-cheio"></div>
+                <p>Quase cheio (menos da metade das vagas livres)</p>
+            </div>
+            <div class="item-legenda">
+                <div class="amostra lotado"></div>
+                <p>Lotado (sem vagas livres)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Desenvolvido para Programação Web I - Prof. Daniel Ferreira</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
