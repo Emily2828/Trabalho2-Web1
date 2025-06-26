@@ -116,18 +116,6 @@ body {
     border-radius: 3px;
 }
 
-.amostra.disponivel {
-    background-color: #2ecc71;
-}
-
-.amostra.quase-cheio {
-    background-color: #f39c12;
-}
-
-.amostra.lotado {
-    background-color: #e74c3c;
-}
-
 .info-box {
     background-color: white;
     border-radius: 8px;
@@ -152,16 +140,19 @@ body {
     border-radius: 50%;
 }
 
-.status-icon.disponivel {
+.status-icon.disponivel, .amostra.disponivel {
     background-color: #2ecc71;
+    display: none;
 }
 
-.status-icon.quase-cheio {
+.status-icon.quase-cheio, .amostra.quase-cheio {
     background-color: #f39c12;
+    display: none;
 }
 
-.status-icon.lotado {
+.status-icon.lotado, .amostra.lotado {
     background-color: #e74c3c;
+    display: none;
 }
 
 .rodape {
